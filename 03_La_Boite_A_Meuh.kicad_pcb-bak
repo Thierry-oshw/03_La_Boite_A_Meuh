@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 26)
-    (tracks 84)
+    (tracks 87)
     (zones 0)
     (modules 4)
     (nets 2)
@@ -405,6 +405,9 @@
   (segment (start 149 60) (end 181 60) (width 0.5) (layer B.Cu) (net 1))
   (segment (start 181 60) (end 182 60) (width 0.5) (layer B.Cu) (net 1))
   (segment (start 182 60) (end 195 60) (width 0.5) (layer B.Cu) (net 1))
+  (via (at 175 60) (size 1) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5FC430B7))
+  (via (at 165 60) (size 1) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5FC430B9))
+  (via (at 120 150) (size 1) (drill 0.6) (layers F.Cu B.Cu) (net 1) (tstamp 5FC430BF))
 
   (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5F9F0AA3) (hatch edge 0.508)
     (connect_pads (clearance 0.508))

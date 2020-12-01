@@ -1,0 +1,33 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Chimere:DFR0299 U1
+U 1 1 5FC6C86F
+P 6125 2350
+F 0 "U1" H 6125 3217 50  0000 C CNN
+F 1 "DFR0299" H 6125 3126 50  0000 C CNN
+F 2 "Chimere:MODULE_DFR0299" H 6125 2350 50  0001 L BNN
+F 3 "" H 6125 2350 50  0001 L BNN
+F 4 "Dfplayer - a Mini Mp3 Player" H 6125 2350 50  0001 L BNN "DESCRIPTION"
+F 5 "DFRobot" H 6125 2350 50  0001 L BNN "MF"
+F 6 "Unavailable" H 6125 2350 50  0001 L BNN "AVAILABILITY"
+F 7 "None" H 6125 2350 50  0001 L BNN "PRICE"
+F 8 "DFR0299" H 6125 2350 50  0001 L BNN "MP"
+F 9 "None" H 6125 2350 50  0001 L BNN "PACKAGE"
+	1    6125 2350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

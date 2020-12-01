@@ -1,0 +1,30 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Chimere:ESP32-DEVKITC U2
+U 1 1 5FC6D4F6
+P 6900 3525
+F 0 "U2" H 6900 4692 50  0000 C CNN
+F 1 "ESP32-DEVKITC" H 6900 4601 50  0000 C CNN
+F 2 "Chimere:MODULE_ESP32-DEVKITC" H 6900 3525 50  0001 L BNN
+F 3 "" H 6900 3525 50  0001 L BNN
+F 4 "Manufacturer Recommendations" H 6900 3525 50  0001 L BNN "STANDARD"
+F 5 "ESPRESSIF" H 6900 3525 50  0001 L BNN "MANUFACTURER"
+F 6 "N/A" H 6900 3525 50  0001 L BNN "PARTREV"
+	1    6900 3525
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
