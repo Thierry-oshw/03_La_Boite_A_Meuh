@@ -63,4 +63,7 @@ Wire Wire Line
 	6725 2250 6850 2250
 Wire Wire Line
 	6725 2350 6850 2350
+NoConn ~ 5525 2150
+NoConn ~ 5525 1950
+NoConn ~ 5525 2250
 $EndSCHEMATC

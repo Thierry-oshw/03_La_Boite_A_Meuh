@@ -27,4 +27,32 @@ F 6 "N/A" H 6900 3525 50  0001 L BNN "PARTREV"
 	1    6900 3525
 	1    0    0    -1  
 $EndComp
+Text GLabel 7825 2625 2    50   Input ~ 0
+GND
+Text GLabel 6000 4425 0    50   Input ~ 0
+5V
+Text GLabel 8525 3600 2    50   Input ~ 0
+ESP2DFR
+Text GLabel 8525 3500 2    50   Input ~ 0
+DFR2ESP
+Text GLabel 6000 3925 0    50   Input ~ 0
+GND
+Text GLabel 7825 3225 2    50   Input ~ 0
+GND
+Text GLabel 8550 3750 2    50   Input ~ 0
+V_2_uC
+Text GLabel 8550 3875 2    50   Input ~ 0
+uC_2_V
+Text GLabel 5900 2625 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5900 2625 6100 2625
+Wire Wire Line
+	6000 4425 6100 4425
+Wire Wire Line
+	7700 2625 7825 2625
+Wire Wire Line
+	6000 3925 6100 3925
+Wire Wire Line
+	7700 3225 7825 3225
 $EndSCHEMATC
