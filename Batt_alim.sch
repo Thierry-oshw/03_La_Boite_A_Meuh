@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Chimere:Batt_Alim U?
+L Chimere:Batt_Alim U4
 U 1 1 5FDF7692
 P 6300 3750
-F 0 "U?" H 6300 4290 50  0000 C CNN
+F 0 "U4" H 6300 4290 50  0000 C CNN
 F 1 "Batt_Alim" H 6300 4199 50  0000 C CNN
 F 2 "Chimere:Batt_Alim" H 6300 3750 50  0001 C CNN
 F 3 "" H 6300 3750 50  0001 C CNN
@@ -55,24 +55,23 @@ Wire Wire Line
 Wire Wire Line
 	5325 3700 5800 3700
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J28
 U 1 1 5FDF9A30
-P 5800 4425
-F 0 "J?" H 5718 4100 50  0000 C CNN
-F 1 "Conn_01x03" H 5718 4191 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 5800 4425 50  0001 C CNN
-F 3 "~" H 5800 4425 50  0001 C CNN
-	1    5800 4425
-	0    1    1    0   
+P 5700 4425
+F 0 "J28" H 5618 4100 50  0000 C CNN
+F 1 "Conn_01x03" H 5618 4191 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 5700 4425 50  0001 C CNN
+F 3 "~" H 5700 4425 50  0001 C CNN
+	1    5700 4425
+	0    -1   1    0   
 $EndComp
-NoConn ~ 5900 4225
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5FDFAD94
 P 5100 3200
 AR Path="/5FC6C772/5FDFAD94" Ref="J?"  Part="1" 
-AR Path="/5FC6D1FC/5FDFAD94" Ref="J?"  Part="1" 
-F 0 "J?" H 5018 2875 50  0000 C CNN
+AR Path="/5FC6D1FC/5FDFAD94" Ref="J27"  Part="1" 
+F 0 "J27" H 5018 2875 50  0000 C CNN
 F 1 "Conn_01x02" H 5018 2966 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5100 3200 50  0001 C CNN
 F 3 "~" H 5100 3200 50  0001 C CNN
@@ -98,10 +97,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 3950 5700 4225
 $Comp
-L Device:Battery_Cell BT?
+L Device:Battery_Cell BT1
 U 1 1 5FDFD2B1
 P 4600 3800
-F 0 "BT?" H 4718 3896 50  0000 L CNN
+F 0 "BT1" H 4718 3896 50  0000 L CNN
 F 1 "Battery_Cell" H 4718 3805 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 4600 3860 50  0001 C CNN
 F 3 "~" V 4600 3860 50  0001 C CNN
@@ -118,4 +117,5 @@ Wire Wire Line
 	5325 3900 5325 3825
 Wire Wire Line
 	5325 3825 5800 3825
+NoConn ~ 5600 4225
 $EndSCHEMATC
