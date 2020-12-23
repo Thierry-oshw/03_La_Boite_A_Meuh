@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\sauvegarde\12_kicad\GITHUB\03_La_Boite_A_Meuh\03_La_Boite_A_Meuh.sch)
-    (date "21/12/2020 00:57:00")
+    (date "23/12/2020 00:42:05")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
