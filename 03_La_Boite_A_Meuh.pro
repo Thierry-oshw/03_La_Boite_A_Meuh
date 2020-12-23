@@ -1,4 +1,4 @@
-update=23/12/2020 01:07:11
+update=23/12/2020 08:17:23
 version=1
 last_client=kicad
 [general]
@@ -239,6 +239,28 @@ Enabled=0
 Name=Default
 Clearance=0.2
 TrackWidth=0.5
+ViaDiameter=1
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=fin
+Clearance=0.2
+TrackWidth=0.3
+ViaDiameter=1
+ViaDrill=0.6
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=gros
+Clearance=0.2
+TrackWidth=1
 ViaDiameter=1
 ViaDrill=0.6
 uViaDiameter=0.3

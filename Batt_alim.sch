@@ -57,13 +57,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J28
 U 1 1 5FDF9A30
-P 5700 4425
-F 0 "J28" H 5618 4100 50  0000 C CNN
-F 1 "Conn_01x03" H 5618 4191 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 5700 4425 50  0001 C CNN
-F 3 "~" H 5700 4425 50  0001 C CNN
-	1    5700 4425
-	0    -1   1    0   
+P 5800 4425
+F 0 "J28" H 5718 4100 50  0000 C CNN
+F 1 "Conn_01x03" H 5718 4191 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 5800 4425 50  0001 C CNN
+F 3 "~" H 5800 4425 50  0001 C CNN
+	1    5800 4425
+	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
@@ -117,5 +117,7 @@ Wire Wire Line
 	5325 3900 5325 3825
 Wire Wire Line
 	5325 3825 5800 3825
-NoConn ~ 5600 4225
+NoConn ~ 5900 4225
+Text Label 5575 3100 0    50   ~ 0
+V_ext
 $EndSCHEMATC
