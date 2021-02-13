@@ -30,26 +30,11 @@ F 9 "None" H 6125 2350 50  0001 L BNN "PACKAGE"
 	1    6125 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 5FC6CA52
-P 4975 2850
-F 0 "J4" H 4893 2525 50  0000 C CNN
-F 1 "Conn_01x02" H 4893 2616 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4975 2850 50  0001 C CNN
-F 3 "~" H 4975 2850 50  0001 C CNN
-	1    4975 2850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5175 2750 5525 2750
-Wire Wire Line
-	5175 2850 5525 2850
 Text GLabel 6925 3050 2    50   Input ~ 0
 GND
 Wire Wire Line
 	6725 3050 6925 3050
-Text GLabel 7150 1750 2    50   Input ~ 0
+Text GLabel 6800 1750 2    50   Input ~ 0
 3V3
 Text GLabel 6850 2350 2    50   Input ~ 0
 ESP2DFR
@@ -62,98 +47,6 @@ Wire Wire Line
 NoConn ~ 5525 2150
 NoConn ~ 5525 1950
 NoConn ~ 5525 2250
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5FE05EE0
-P 8300 1625
-F 0 "J1" H 8218 1300 50  0000 C CNN
-F 1 "Conn_01x02" H 8218 1391 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8300 1625 50  0001 C CNN
-F 3 "~" H 8300 1625 50  0001 C CNN
-	1    8300 1625
-	1    0    0    -1  
-$EndComp
-Text GLabel 5475 2550 0    50   Input ~ 0
-seg5
-Text GLabel 5475 2450 0    50   Input ~ 0
-seg1
-Text GLabel 6825 2550 2    50   Input ~ 0
-next
-Text GLabel 6825 2650 2    50   Input ~ 0
-prev
-Wire Wire Line
-	6725 2550 6825 2550
-Wire Wire Line
-	6725 2650 6825 2650
-Wire Wire Line
-	5475 2450 5525 2450
-Wire Wire Line
-	5475 2550 5525 2550
-Text GLabel 7950 1725 0    50   Input ~ 0
-seg5
-Text GLabel 7950 2175 0    50   Input ~ 0
-seg1
-Text GLabel 7950 2650 0    50   Input ~ 0
-next
-Text GLabel 7950 3100 0    50   Input ~ 0
-prev
-Text GLabel 7950 1625 0    50   Input ~ 0
-GND
-Wire Wire Line
-	7950 1625 8100 1625
-Wire Wire Line
-	7950 1725 8100 1725
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5FE089E1
-P 8300 2075
-F 0 "J2" H 8218 1750 50  0000 C CNN
-F 1 "Conn_01x02" H 8218 1841 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8300 2075 50  0001 C CNN
-F 3 "~" H 8300 2075 50  0001 C CNN
-	1    8300 2075
-	1    0    0    -1  
-$EndComp
-Text GLabel 7950 2075 0    50   Input ~ 0
-GND
-Wire Wire Line
-	7950 2075 8100 2075
-Wire Wire Line
-	7950 2175 8100 2175
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5FE09440
-P 8300 2550
-F 0 "J3" H 8218 2225 50  0000 C CNN
-F 1 "Conn_01x02" H 8218 2316 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8300 2550 50  0001 C CNN
-F 3 "~" H 8300 2550 50  0001 C CNN
-	1    8300 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 5FE095FE
-P 8300 3000
-F 0 "J5" H 8218 2675 50  0000 C CNN
-F 1 "Conn_01x02" H 8218 2766 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8300 3000 50  0001 C CNN
-F 3 "~" H 8300 3000 50  0001 C CNN
-	1    8300 3000
-	1    0    0    -1  
-$EndComp
-Text GLabel 7950 2550 0    50   Input ~ 0
-GND
-Text GLabel 7950 3000 0    50   Input ~ 0
-GND
-Wire Wire Line
-	7950 2550 8100 2550
-Wire Wire Line
-	7950 2650 8100 2650
-Wire Wire Line
-	7950 3000 8100 3000
-Wire Wire Line
-	7950 3100 8100 3100
 Text GLabel 6875 1950 2    50   Input ~ 0
 DFR_R
 Text GLabel 6875 2050 2    50   Input ~ 0
@@ -166,25 +59,10 @@ Text GLabel 1225 2100 0    50   Input ~ 0
 DFR_R
 Text GLabel 1225 1675 0    50   Input ~ 0
 DFR_L
-$Comp
-L Device:R R?
-U 1 1 5FE1321B
-P 6950 1750
-AR Path="/5FC6D1B4/5FE1321B" Ref="R?"  Part="1" 
-AR Path="/5FC6C772/5FE1321B" Ref="R3"  Part="1" 
-F 0 "R3" V 6743 1750 50  0000 C CNN
-F 1 "0" V 6834 1750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6880 1750 50  0001 C CNN
-F 3 "~" H 6950 1750 50  0001 C CNN
-	1    6950 1750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6725 1750 6800 1750
-Wire Wire Line
-	7100 1750 7150 1750
 Text GLabel 1225 2525 0    50   Input ~ 0
-ESP_audio_out
+ESP_audio_out_div
 $Comp
 L Amplifier_Audio:PAM8302AAS U3
 U 1 1 5FE5DE66
@@ -418,4 +296,10 @@ Wire Wire Line
 	3775 1675 4300 1675
 Wire Wire Line
 	4300 1675 4300 1600
+NoConn ~ 5525 2750
+NoConn ~ 5525 2850
+NoConn ~ 6725 2550
+NoConn ~ 6725 2650
+NoConn ~ 5525 2450
+NoConn ~ 5525 2550
 $EndSCHEMATC
