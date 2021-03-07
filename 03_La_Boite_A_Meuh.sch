@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -36,5 +36,11 @@ S 1375 4300 875  850
 U 5FC6D1FC
 F0 "Batt_alim" 50
 F1 "Batt_alim.sch" 50
+$EndSheet
+$Sheet
+S 1525 5700 1000 825 
+U 604E9F04
+F0 "tilt" 50
+F1 "tilt.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -24,47 +24,14 @@ F 3 "" H 6300 3750 50  0001 C CNN
 	1    6300 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 6950 3575 2    50   Input ~ 0
-GND
 Text GLabel 6950 3450 2    50   Input ~ 0
 5V
 Wire Wire Line
 	6800 3450 6950 3450
-Text GLabel 6950 4075 2    50   Input ~ 0
-GND
 Text GLabel 5700 3575 0    50   Input ~ 0
 GND
 Wire Wire Line
-	6800 3575 6950 3575
-Wire Wire Line
-	6800 4075 6950 4075
-Wire Wire Line
 	5700 3575 5800 3575
-Text GLabel 6950 3825 2    50   Input ~ 0
-V_2_uC
-Text GLabel 6950 3950 2    50   Input ~ 0
-uC_2_V
-Wire Wire Line
-	6800 3825 6950 3825
-Wire Wire Line
-	6800 3950 6950 3950
-Text GLabel 6950 3700 2    50   Input ~ 0
-3V3
-Wire Wire Line
-	6800 3700 6950 3700
-Wire Wire Line
-	5325 3700 5800 3700
-$Comp
-L Connector_Generic:Conn_01x03 J28
-U 1 1 5FDF9A30
-P 5800 4425
-F 0 "J28" H 5718 4100 50  0000 C CNN
-F 1 "Conn_01x03" H 5718 4191 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal" H 5800 4425 50  0001 C CNN
-F 3 "~" H 5800 4425 50  0001 C CNN
-	1    5800 4425
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5FDFAD94
@@ -88,36 +55,46 @@ Wire Wire Line
 	5800 3100 5800 3450
 Text Notes 3675 3175 0    50   ~ 0
 connecteur alimentation extérieure
-Text Notes 6050 4700 2    50   ~ 0
+Text Notes 5750 4175 2    50   ~ 0
 connecteur interrupteur
-Wire Wire Line
-	5800 4075 5800 4225
-Wire Wire Line
-	5800 3950 5700 3950
-Wire Wire Line
-	5700 3950 5700 4225
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5FDFD2B1
-P 4600 3800
-F 0 "BT1" H 4718 3896 50  0000 L CNN
-F 1 "Battery_Cell" H 4718 3805 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 4600 3860 50  0001 C CNN
-F 3 "~" V 4600 3860 50  0001 C CNN
-	1    4600 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 3600 5325 3600
-Wire Wire Line
-	5325 3600 5325 3700
-Wire Wire Line
-	4600 3900 5325 3900
-Wire Wire Line
-	5325 3900 5325 3825
-Wire Wire Line
-	5325 3825 5800 3825
-NoConn ~ 5900 4225
 Text Label 5575 3100 0    50   ~ 0
 V_ext
+Text Notes 5900 4175 0    50   ~ 0
+G3T12AH-R
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6031A76D
+P 5500 3900
+AR Path="/5FC6C772/6031A76D" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/6031A76D" Ref="J9"  Part="1" 
+F 0 "J9" H 5418 3575 50  0000 C CNN
+F 1 "Conn_01x02" H 5418 3666 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5500 3900 50  0001 C CNN
+F 3 "~" H 5500 3900 50  0001 C CNN
+	1    5500 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6031BF0F
+P 4550 3800
+AR Path="/5FC6C772/6031BF0F" Ref="J?"  Part="1" 
+AR Path="/5FC6D1FC/6031BF0F" Ref="J4"  Part="1" 
+F 0 "J4" H 4468 3475 50  0000 C CNN
+F 1 "Conn_01x02" H 4468 3566 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4550 3800 50  0001 C CNN
+F 3 "~" H 4550 3800 50  0001 C CNN
+	1    4550 3800
+	-1   0    0    1   
+$EndComp
+Text Notes 3700 3775 0    50   ~ 0
+connecteur batterie\n
+Text GLabel 4850 3800 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5800 3700 5500 3700
+Wire Wire Line
+	5400 3700 4750 3700
+Wire Wire Line
+	4750 3800 4850 3800
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -13,54 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Chimere:DFR0299 U1
-U 1 1 5FC6C86F
-P 6125 2350
-F 0 "U1" H 6125 3217 50  0000 C CNN
-F 1 "DFR0299" H 6125 3126 50  0000 C CNN
-F 2 "Chimere:MODULE_DFR0299" H 6125 2350 50  0001 L BNN
-F 3 "" H 6125 2350 50  0001 L BNN
-F 4 "Dfplayer - a Mini Mp3 Player" H 6125 2350 50  0001 L BNN "DESCRIPTION"
-F 5 "DFRobot" H 6125 2350 50  0001 L BNN "MF"
-F 6 "Unavailable" H 6125 2350 50  0001 L BNN "AVAILABILITY"
-F 7 "None" H 6125 2350 50  0001 L BNN "PRICE"
-F 8 "DFR0299" H 6125 2350 50  0001 L BNN "MP"
-F 9 "None" H 6125 2350 50  0001 L BNN "PACKAGE"
-	1    6125 2350
-	1    0    0    -1  
-$EndComp
-Text GLabel 6925 3050 2    50   Input ~ 0
-GND
-Wire Wire Line
-	6725 3050 6925 3050
-Text GLabel 6800 1750 2    50   Input ~ 0
-3V3
-Text GLabel 6850 2350 2    50   Input ~ 0
-ESP2DFR
-Text GLabel 6850 2250 2    50   Input ~ 0
-DFR2ESP
-Wire Wire Line
-	6725 2250 6850 2250
-Wire Wire Line
-	6725 2350 6850 2350
-NoConn ~ 5525 2150
-NoConn ~ 5525 1950
-NoConn ~ 5525 2250
-Text GLabel 6875 1950 2    50   Input ~ 0
-DFR_R
-Text GLabel 6875 2050 2    50   Input ~ 0
-DFR_L
-Wire Wire Line
-	6725 1950 6875 1950
-Wire Wire Line
-	6725 2050 6875 2050
-Text GLabel 1225 2100 0    50   Input ~ 0
-DFR_R
-Text GLabel 1225 1675 0    50   Input ~ 0
-DFR_L
-Wire Wire Line
-	6725 1750 6800 1750
 Text GLabel 1225 2525 0    50   Input ~ 0
 ESP_audio_out_div
 $Comp
@@ -296,10 +248,8 @@ Wire Wire Line
 	3775 1675 4300 1675
 Wire Wire Line
 	4300 1675 4300 1600
-NoConn ~ 5525 2750
-NoConn ~ 5525 2850
-NoConn ~ 6725 2550
-NoConn ~ 6725 2650
-NoConn ~ 5525 2450
-NoConn ~ 5525 2550
+Text GLabel 1225 1675 0    50   Input ~ 0
+DAC_Lout
+Text GLabel 1225 2100 0    50   Input ~ 0
+DAC_Rout
 $EndSCHEMATC
