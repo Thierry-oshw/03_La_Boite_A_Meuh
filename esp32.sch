@@ -559,9 +559,9 @@ Wire Wire Line
 Connection ~ 3925 700 
 Text GLabel 8400 3350 2    50   Input ~ 0
 back0_div
-Text GLabel 5200 3350 0    50   Input ~ 0
-SD_MISO
 Text GLabel 5200 3550 0    50   Input ~ 0
+SD_MISO
+Text GLabel 5200 3350 0    50   Input ~ 0
 SD_MOSI
 Text GLabel 5200 3250 0    50   Input ~ 0
 SD_CLK

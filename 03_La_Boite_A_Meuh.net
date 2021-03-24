@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\sauvegarde\12_kicad\GITHUB\03_La_Boite_A_Meuh\03_La_Boite_A_Meuh.sch)
-    (date "02/03/2021 22:33:33")
+    (date "24/03/2021 19:31:48")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -984,7 +984,7 @@
       (node (ref J1) (pin 2))
       (node (ref R42) (pin 1)))
     (net (code 17) (name SD_MISO)
-      (node (ref R37) (pin 2))
+      (node (ref R40) (pin 2))
       (node (ref J1) (pin 7))
       (node (ref R19) (pin 1)))
     (net (code 18) (name 3V3)
@@ -1039,7 +1039,7 @@
     (net (code 30) (name "Net-(J1-Pad8)")
       (node (ref J1) (pin 8)))
     (net (code 31) (name SD_MOSI)
-      (node (ref R40) (pin 2))
+      (node (ref R37) (pin 2))
       (node (ref J1) (pin 3)))
     (net (code 32) (name "Net-(J1-Pad1)")
       (node (ref J1) (pin 1)))
