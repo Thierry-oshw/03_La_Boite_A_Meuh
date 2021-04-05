@@ -567,10 +567,6 @@ Text GLabel 5200 3250 0    50   Input ~ 0
 SD_CLK
 Text GLabel 8600 3650 2    50   Input ~ 0
 SD_CS
-Wire Wire Line
-	5900 3250 6000 3250
-Wire Wire Line
-	7600 3650 7700 3650
 $Comp
 L Device:R R19
 U 1 1 60282371
@@ -5268,94 +5264,12 @@ F 3 "~" H 5750 2850 50  0001 C CNN
 	1    5750 2850
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R29
-U 1 1 6039093D
-P 5450 2950
-F 0 "R29" V 5350 2950 50  0000 C CNN
-F 1 "0" V 5450 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 2950 50  0001 C CNN
-F 3 "~" H 5450 2950 50  0001 C CNN
-	1    5450 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R31
-U 1 1 60390C94
-P 5750 3050
-F 0 "R31" V 5650 3050 50  0000 C CNN
-F 1 "0" V 5750 3050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 3050 50  0001 C CNN
-F 3 "~" H 5750 3050 50  0001 C CNN
-	1    5750 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R33
-U 1 1 603911D4
-P 5450 3150
-F 0 "R33" V 5350 3150 50  0000 C CNN
-F 1 "0" V 5450 3150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 3150 50  0001 C CNN
-F 3 "~" H 5450 3150 50  0001 C CNN
-	1    5450 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R35
-U 1 1 603915F4
-P 5750 3250
-F 0 "R35" V 5650 3250 50  0000 C CNN
-F 1 "0" V 5750 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 3250 50  0001 C CNN
-F 3 "~" H 5750 3250 50  0001 C CNN
-	1    5750 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R37
-U 1 1 60391B58
-P 5450 3350
-F 0 "R37" V 5350 3350 50  0000 C CNN
-F 1 "0" V 5450 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 3350 50  0001 C CNN
-F 3 "~" H 5450 3350 50  0001 C CNN
-	1    5450 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R40
-U 1 1 603925BD
-P 5450 3550
-F 0 "R40" V 5350 3550 50  0000 C CNN
-F 1 "0" V 5450 3550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 3550 50  0001 C CNN
-F 3 "~" H 5450 3550 50  0001 C CNN
-	1    5450 3550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5200 2750 5300 2750
 Wire Wire Line
 	5600 2750 6000 2750
 Wire Wire Line
 	5900 2850 6000 2850
-Wire Wire Line
-	5600 2950 6000 2950
-Wire Wire Line
-	5900 3050 6000 3050
-Wire Wire Line
-	5600 3150 6000 3150
-Wire Wire Line
-	5200 3250 5600 3250
-Wire Wire Line
-	5200 3350 5300 3350
-Wire Wire Line
-	5200 3550 5300 3550
-Wire Wire Line
-	5600 3350 6000 3350
-Wire Wire Line
-	5600 3550 6000 3550
 $Comp
 L Device:R R32
 U 1 1 603D43DF
@@ -5380,19 +5294,6 @@ F 3 "~" H 7850 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7600 3350 8000 3350
-$Comp
-L Device:R R42
-U 1 1 60405C8C
-P 7850 3650
-F 0 "R42" V 7750 3650 50  0000 C CNN
-F 1 "0" V 7850 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7780 3650 50  0001 C CNN
-F 3 "~" H 7850 3650 50  0001 C CNN
-	1    7850 3650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8000 3650 8600 3650
 Text GLabel 5200 2750 0    50   Input ~ 0
 mic_LRCL
 Text GLabel 5200 2650 0    50   Input ~ 0
@@ -5416,8 +5317,6 @@ Wire Wire Line
 	5200 2650 5600 2650
 Wire Wire Line
 	5200 2850 5600 2850
-Wire Wire Line
-	5200 2950 5300 2950
 Text GLabel 9575 3450 2    50   Input ~ 0
 3V3
 Text GLabel 5200 2950 0    50   Input ~ 0
@@ -5426,10 +5325,6 @@ Text GLabel 5200 3050 0    50   Input ~ 0
 out_DIN
 Text GLabel 5200 3150 0    50   Input ~ 0
 out_BCLK
-Wire Wire Line
-	5200 3150 5300 3150
-Wire Wire Line
-	5200 3050 5600 3050
 $Comp
 L Device:R R22
 U 1 1 60444F8A
@@ -24311,4 +24206,18 @@ Wire Wire Line
 	8000 3250 8675 3250
 Wire Wire Line
 	7600 3050 8775 3050
+Wire Wire Line
+	5200 3250 6000 3250
+Wire Wire Line
+	5200 3350 6000 3350
+Wire Wire Line
+	5200 3550 6000 3550
+Wire Wire Line
+	7600 3650 8600 3650
+Wire Wire Line
+	5200 3150 6000 3150
+Wire Wire Line
+	5200 3050 6000 3050
+Wire Wire Line
+	5200 2950 6000 2950
 $EndSCHEMATC
