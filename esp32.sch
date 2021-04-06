@@ -5346,14 +5346,14 @@ Wire Notes Line
 	4975 1425 4975 475 
 Wire Notes Line
 	500  1425 4975 1425
-Text GLabel 9800 6025 3    50   Input ~ 0
+Text GLabel 7475 5925 0    50   Input ~ 0
 out_WSEL
-Text GLabel 9900 6025 3    50   Input ~ 0
+Text GLabel 7475 6025 0    50   Input ~ 0
 out_DIN
-Text GLabel 10000 6025 3    50   Input ~ 0
+Text GLabel 7475 6125 0    50   Input ~ 0
 out_BCLK
 $Bitmap
-Pos 9950 4875
+Pos 10075 5775
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 02 98 00 00 01 A7 08 02 00 00 00 9C 97 B0 
@@ -24081,48 +24081,16 @@ CF 23 9D DE D9 D9 39 3E 3E 3E 3C 3C 8C B9 B8 C7 8F 1F 5F 5D 5D 31 F3 FD FB F7 0F
 FF 1F 4D 1F 2F B9 9B 91 EB F2 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text GLabel 9700 6025 3    50   Input ~ 0
+Text GLabel 7475 5825 0    50   Input ~ 0
 GND
-Text GLabel 9500 6025 3    50   Input ~ 0
+Text GLabel 7475 5625 0    50   Input ~ 0
 5V
-$Comp
-L Connector_Generic:Conn_01x09 J3
-U 1 1 604855FC
-P 9900 5750
-F 0 "J3" V 10117 5746 50  0000 C CNN
-F 1 "Conn_01x09" V 10026 5746 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 9900 5750 50  0001 C CNN
-F 3 "~" H 9900 5750 50  0001 C CNN
-	1    9900 5750
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 9600 5950
-Text GLabel 10100 6025 3    50   Input ~ 0
+Text GLabel 7475 6225 0    50   Input ~ 0
 DAC_Lout
-Text GLabel 10300 6025 3    50   Input ~ 0
+Text GLabel 7475 6425 0    50   Input ~ 0
 DAC_Rout
-Text GLabel 10200 6025 3    50   Input ~ 0
+Text GLabel 7475 6325 0    50   Input ~ 0
 GND
-Wire Wire Line
-	9500 5950 9500 6025
-Wire Wire Line
-	9700 5950 9700 6025
-Wire Wire Line
-	9800 5950 9800 6025
-Wire Wire Line
-	9900 5950 9900 6025
-Wire Wire Line
-	10000 5950 10000 6025
-Wire Wire Line
-	10100 5950 10100 6025
-Wire Wire Line
-	10200 5950 10200 6025
-Wire Wire Line
-	10300 5950 10300 6025
-Wire Notes Line
-	11150 4050 8775 4050
-Wire Notes Line
-	8775 4050 8775 6500
 Text GLabel 5200 2450 0    50   Input ~ 0
 TILT
 $Comp
@@ -24220,4 +24188,48 @@ Wire Wire Line
 	5200 3050 6000 3050
 Wire Wire Line
 	5200 2950 6000 2950
+$Comp
+L Chimere:UDA1334_ADAFRUIT U5
+U 1 1 606CC25D
+P 8100 5925
+F 0 "U5" H 8100 6490 50  0000 C CNN
+F 1 "UDA1334_ADAFRUIT" H 8100 6399 50  0000 C CNN
+F 2 "Chimere:Adafruit_UDA1334" H 7950 5925 50  0001 C CNN
+F 3 "" H 7950 5925 50  0001 C CNN
+	1    8100 5925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 5625 7550 5625
+NoConn ~ 7550 5725
+Wire Wire Line
+	7475 5825 7550 5825
+Wire Wire Line
+	7475 5925 7550 5925
+Wire Wire Line
+	7475 6025 7550 6025
+Wire Wire Line
+	7475 6125 7550 6125
+Wire Wire Line
+	7475 6225 7550 6225
+Wire Wire Line
+	7475 6325 7550 6325
+Wire Wire Line
+	7475 6425 7550 6425
+NoConn ~ 8650 5625
+NoConn ~ 8650 5825
+NoConn ~ 8650 6025
+NoConn ~ 8650 6125
+Text GLabel 8700 5725 2    50   Input ~ 0
+GND
+Text GLabel 8700 5925 2    50   Input ~ 0
+GND
+Wire Wire Line
+	8650 5725 8700 5725
+Wire Wire Line
+	8650 5925 8700 5925
+Wire Notes Line
+	11200 5000 7025 5000
+Wire Notes Line
+	7025 5000 7025 6475
 $EndSCHEMATC
