@@ -263,7 +263,7 @@ Wire Wire Line
 	775  2950 875  2950
 Wire Wire Line
 	775  3050 875  3050
-Text GLabel 8575 2250 2    50   Input ~ 0
+Text GLabel 8400 3350 2    50   Input ~ 0
 ESP_audio_out
 $Comp
 L Connector_Generic:Conn_01x02 J?
@@ -286,7 +286,7 @@ Text GLabel 925  3475 0    50   Input ~ 0
 bouton1
 Wire Wire Line
 	925  3475 1100 3475
-Text GLabel 8600 2850 2    50   Input ~ 0
+Text GLabel 7925 3150 2    50   Input ~ 0
 LED_out
 Text GLabel 925  4150 0    50   Input ~ 0
 LED_out
@@ -309,17 +309,6 @@ Wire Wire Line
 	5200 2250 5300 2250
 Wire Wire Line
 	7600 3450 9000 3450
-$Comp
-L Connector_Generic:Conn_01x01 J25
-U 1 1 5FE1105E
-P 9350 3600
-F 0 "J25" H 9430 3642 50  0000 L CNN
-F 1 "Conn_01x01" H 9430 3551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 3600 50  0001 C CNN
-F 3 "~" H 9350 3600 50  0001 C CNN
-	1    9350 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 3600 9000 3600
 Wire Wire Line
@@ -557,7 +546,7 @@ back0_div
 Wire Wire Line
 	3850 700  3925 700 
 Connection ~ 3925 700 
-Text GLabel 8400 3350 2    50   Input ~ 0
+Text GLabel 5200 2550 0    50   Input ~ 0
 back0_div
 Text GLabel 5200 3550 0    50   Input ~ 0
 SD_MISO
@@ -24110,54 +24099,10 @@ Wire Wire Line
 	5200 2450 5600 2450
 Wire Wire Line
 	7600 3550 8600 3550
-$Comp
-L Connector_Generic:Conn_01x01 J12
-U 1 1 603B0996
-P 8125 3150
-F 0 "J12" H 8205 3192 50  0000 L CNN
-F 1 "Conn_01x01" H 8205 3101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8125 3150 50  0001 C CNN
-F 3 "~" H 8125 3150 50  0001 C CNN
-	1    8125 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J13
-U 1 1 603B18E4
-P 8975 3050
-F 0 "J13" H 9055 3092 50  0000 L CNN
-F 1 "Conn_01x01" H 9055 3001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8975 3050 50  0001 C CNN
-F 3 "~" H 8975 3050 50  0001 C CNN
-	1    8975 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7925 3150 7600 3150
 Text GLabel 8675 3250 2    50   Input ~ 0
 bouton1
-$Comp
-L Connector_Generic:Conn_01x01 J14
-U 1 1 603BD4F7
-P 4675 2550
-F 0 "J14" H 5250 2550 50  0000 L CNN
-F 1 "Conn_01x01" H 4750 2550 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4675 2550 50  0001 C CNN
-F 3 "~" H 4675 2550 50  0001 C CNN
-	1    4675 2550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J15
-U 1 1 603BD71F
-P 8225 2950
-F 0 "J15" H 8305 2992 50  0000 L CNN
-F 1 "Conn_01x01" H 8305 2901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8225 2950 50  0001 C CNN
-F 3 "~" H 8225 2950 50  0001 C CNN
-	1    8225 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7600 2950 8025 2950
 Wire Wire Line
@@ -24167,13 +24112,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 3350 8400 3350
 Wire Wire Line
-	4875 2550 6000 2550
-Wire Wire Line
 	7600 3250 7700 3250
 Wire Wire Line
 	8000 3250 8675 3250
-Wire Wire Line
-	7600 3050 8775 3050
 Wire Wire Line
 	5200 3250 6000 3250
 Wire Wire Line
@@ -24232,4 +24173,77 @@ Wire Notes Line
 	11200 5000 7025 5000
 Wire Notes Line
 	7025 5000 7025 6475
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 606CE771
+P 6100 5500
+F 0 "J3" H 6180 5492 50  0000 L CNN
+F 1 "Conn_01x08" H 6180 5401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 6100 5500 50  0001 C CNN
+F 3 "~" H 6100 5500 50  0001 C CNN
+	1    6100 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5825 5200 0    50   Input ~ 0
+SPI_SDA
+Text GLabel 5825 5300 0    50   Input ~ 0
+SPI_SCK
+Text GLabel 5775 5400 0    50   Input ~ 0
+SPI_MOSI
+Text GLabel 5775 5500 0    50   Input ~ 0
+SPI_MISO
+NoConn ~ 5900 5600
+Text GLabel 5775 5700 0    50   Input ~ 0
+GND
+Text GLabel 5775 5900 0    50   Input ~ 0
+3V3
+Text GLabel 5775 5800 0    50   Input ~ 0
+SPI_RST
+Wire Wire Line
+	5825 5200 5900 5200
+Wire Wire Line
+	5825 5300 5900 5300
+Wire Wire Line
+	5775 5400 5900 5400
+Wire Wire Line
+	5775 5500 5900 5500
+Wire Wire Line
+	5775 5700 5900 5700
+Wire Wire Line
+	5775 5800 5900 5800
+Wire Wire Line
+	5775 5900 5900 5900
+Text Notes 4350 5600 0    50   ~ 0
+connecteur vers rfid
+Wire Notes Line
+	6700 5025 4200 5025
+Wire Notes Line
+	4200 5025 4200 6150
+Text GLabel 8600 3050 2    50   Input ~ 0
+SPI_SDA
+Text GLabel 8025 2950 2    50   Input ~ 0
+SPI_SCK
+Text GLabel 8575 2250 2    50   Input ~ 0
+SPI_MOSI
+Text GLabel 8600 2850 2    50   Input ~ 0
+SPI_MISO
+Text GLabel 9150 3600 2    50   Input ~ 0
+SPI_RST
+Wire Wire Line
+	7600 3050 8600 3050
+$Comp
+L Device:R R20
+U 1 1 60720E58
+P 5450 2550
+F 0 "R20" V 5350 2550 50  0000 C CNN
+F 1 "0" V 5450 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 2550 50  0001 C CNN
+F 3 "~" H 5450 2550 50  0001 C CNN
+	1    5450 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 2550 6000 2550
+Wire Wire Line
+	5200 2550 5300 2550
 $EndSCHEMATC
