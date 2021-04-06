@@ -32,25 +32,8 @@ Text GLabel 5700 3575 0    50   Input ~ 0
 GND
 Wire Wire Line
 	5700 3575 5800 3575
-Text Notes 5750 4175 2    50   ~ 0
-connecteur interrupteur
 Text Label 5500 3450 0    50   ~ 0
 V_ext
-Text Notes 5900 4175 0    50   ~ 0
-G3T12AH-R
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 6031A76D
-P 5500 3900
-AR Path="/5FC6C772/6031A76D" Ref="J?"  Part="1" 
-AR Path="/5FC6D1FC/6031A76D" Ref="J9"  Part="1" 
-F 0 "J9" H 5418 3575 50  0000 C CNN
-F 1 "Conn_01x02" H 5418 3666 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5500 3900 50  0001 C CNN
-F 3 "~" H 5500 3900 50  0001 C CNN
-	1    5500 3900
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6031BF0F
@@ -69,10 +52,6 @@ connecteur batterie\n
 Text GLabel 4850 3800 2    50   Input ~ 0
 GND
 Wire Wire Line
-	5800 3700 5500 3700
-Wire Wire Line
-	5400 3700 4750 3700
-Wire Wire Line
 	4750 3800 4850 3800
 $Comp
 L Device:R R?
@@ -80,8 +59,8 @@ U 1 1 606BFC88
 P 3050 3850
 AR Path="/5FC6D1B4/606BFC88" Ref="R?"  Part="1" 
 AR Path="/5FC6C772/606BFC88" Ref="R?"  Part="1" 
-AR Path="/5FC6D1FC/606BFC88" Ref="R?"  Part="1" 
-F 0 "R?" V 2950 3850 50  0000 C CNN
+AR Path="/5FC6D1FC/606BFC88" Ref="R1"  Part="1" 
+F 0 "R1" V 2950 3850 50  0000 C CNN
 F 1 "100k" V 3050 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 3850 50  0001 C CNN
 F 3 "~" H 3050 3850 50  0001 C CNN
@@ -93,8 +72,8 @@ L Device:C C?
 U 1 1 606BFC8E
 P 2800 3850
 AR Path="/5FC6C772/606BFC8E" Ref="C?"  Part="1" 
-AR Path="/5FC6D1FC/606BFC8E" Ref="C?"  Part="1" 
-F 0 "C?" V 2548 3850 50  0000 C CNN
+AR Path="/5FC6D1FC/606BFC8E" Ref="C1"  Part="1" 
+F 0 "C1" V 2548 3850 50  0000 C CNN
 F 1 "100nF" V 2639 3850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2838 3700 50  0001 C CNN
 F 3 "C14663" H 2800 3850 50  0001 C CNN
@@ -135,14 +114,22 @@ Wire Wire Line
 	5500 3450 5800 3450
 NoConn ~ 3450 3400
 $Comp
-L Connector:USB_B_Micro J?
+L Connector:USB_B_Micro J9
 U 1 1 606C5F07
 P 3150 3200
-F 0 "J?" H 3207 3667 50  0000 C CNN
+F 0 "J9" H 3207 3667 50  0000 C CNN
 F 1 "USB_B_Micro" H 3207 3576 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521_CircularHoles" H 3300 3150 50  0001 C CNN
 F 3 "~" H 3300 3150 50  0001 C CNN
 	1    3150 3200
 	1    0    0    -1  
 $EndComp
+Text GLabel 4825 3700 2    50   Input ~ 0
+VBAT1
+Text GLabel 5700 3700 0    50   Input ~ 0
+VBAT2
+Wire Wire Line
+	4750 3700 4825 3700
+Wire Wire Line
+	5700 3700 5800 3700
 $EndSCHEMATC
