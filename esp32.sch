@@ -241,28 +241,22 @@ SCL
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 5FE053D1
-P 1075 2850
+P 1425 2850
 AR Path="/5FC6D1B4/5FDF95DF/5FE053D1" Ref="J?"  Part="1" 
 AR Path="/5FC6D1B4/5FE053D1" Ref="J11"  Part="1" 
-F 0 "J11" H 1155 2842 50  0000 L CNN
-F 1 "Conn_01x04" H 1155 2751 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1075 2850 50  0001 C CNN
-F 3 "~" H 1075 2850 50  0001 C CNN
-	1    1075 2850
+F 0 "J11" H 1505 2842 50  0000 L CNN
+F 1 "Conn_01x04" H 1505 2751 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 1425 2850 50  0001 C CNN
+F 3 "~" H 1425 2850 50  0001 C CNN
+	1    1425 2850
 	1    0    0    -1  
 $EndComp
 Text GLabel 775  3050 0    50   Input ~ 0
 SDA
 Wire Wire Line
-	775  2750 875  2750
-Wire Wire Line
 	775  2850 875  2850
 Text GLabel 775  2750 0    50   Input ~ 0
 GND
-Wire Wire Line
-	775  2950 875  2950
-Wire Wire Line
-	775  3050 875  3050
 Text GLabel 8400 3350 2    50   Input ~ 0
 ESP_audio_out
 $Comp
@@ -24246,4 +24240,23 @@ Wire Wire Line
 	5600 2550 6000 2550
 Wire Wire Line
 	5200 2550 5300 2550
+$Comp
+L Device:R R21
+U 1 1 60706511
+P 1025 2850
+F 0 "R21" V 925 2850 50  0000 C CNN
+F 1 "0" V 1025 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 955 2850 50  0001 C CNN
+F 3 "~" H 1025 2850 50  0001 C CNN
+	1    1025 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1225 2850 1175 2850
+Wire Wire Line
+	775  2750 1225 2750
+Wire Wire Line
+	775  3050 1225 3050
+Wire Wire Line
+	775  2950 1225 2950
 $EndSCHEMATC
