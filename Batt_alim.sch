@@ -42,14 +42,14 @@ AR Path="/5FC6C772/6031BF0F" Ref="J?"  Part="1"
 AR Path="/5FC6D1FC/6031BF0F" Ref="J4"  Part="1" 
 F 0 "J4" H 4468 3475 50  0000 C CNN
 F 1 "Conn_01x02" H 4468 3566 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4550 3800 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4550 3800 50  0001 C CNN
 F 3 "~" H 4550 3800 50  0001 C CNN
 	1    4550 3800
 	-1   0    0    1   
 $EndComp
 Text Notes 3700 3775 0    50   ~ 0
-connecteur batterie\n
-Text GLabel 4850 3800 2    50   Input ~ 0
+connecteur batterie\nil faut un jst PH\n
+Text GLabel 4850 3700 2    50   Input ~ 0
 GND
 Wire Wire Line
 	4750 3800 4850 3800
@@ -124,12 +124,12 @@ F 3 "~" H 3300 3150 50  0001 C CNN
 	1    3150 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4825 3700 2    50   Input ~ 0
+Text GLabel 4850 3800 2    50   Input ~ 0
 VBAT1
 Text GLabel 5700 3700 0    50   Input ~ 0
 VBAT2
 Wire Wire Line
-	4750 3700 4825 3700
-Wire Wire Line
 	5700 3700 5800 3700
+Wire Wire Line
+	4750 3700 4850 3700
 $EndSCHEMATC
