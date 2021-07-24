@@ -143,14 +143,14 @@ DAC_Lout
 Text GLabel 1775 3325 0    50   Input ~ 0
 DAC_Rout
 $Comp
-L Chimere:Audio_Facile U1
+L Chimere_mods:Audio_Facile U1
 U 1 1 606C57A8
 P 4975 3200
 AR Path="/606C57A8" Ref="U1"  Part="1" 
 AR Path="/5FC6C772/606C57A8" Ref="U1"  Part="1" 
 F 0 "U1" H 4975 3103 50  0000 C CNN
 F 1 "Audio_Facile" H 4975 3012 50  0000 C CNN
-F 2 "Chimere:Audio_Facile" H 4975 3200 50  0001 C CNN
+F 2 "Chimere_mods:Audio_Facile" H 4975 3200 50  0001 C CNN
 F 3 "" H 4975 3200 50  0001 C CNN
 	1    4975 3200
 	1    0    0    -1  
@@ -174,14 +174,14 @@ Wire Wire Line
 Wire Wire Line
 	4025 2950 4100 2950
 $Comp
-L Chimere:rot_pot_rot_sw U3
+L Chimere_comps:rot_pot_rot_sw U3
 U 1 1 606D2DEF
 P 3225 4275
 AR Path="/606D2DEF" Ref="U3"  Part="1" 
 AR Path="/5FC6C772/606D2DEF" Ref="U3"  Part="1" 
 F 0 "U3" V 3515 4363 50  0000 C CNN
 F 1 "rot_pot_rot_sw" V 3424 4363 50  0000 C CNN
-F 2 "Chimere:PTR901" H 3275 4275 50  0001 C CNN
+F 2 "Chimere_comps:PTR901" H 3275 4275 50  0001 C CNN
 F 3 "" H 3275 4275 50  0001 C CNN
 	1    3225 4275
 	0    -1   -1   0   

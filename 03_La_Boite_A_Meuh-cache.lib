@@ -1,46 +1,12 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Chimere_Audio_Facile
+# Chimere_comps_ESP32-DEVKITC
 #
-DEF Chimere_Audio_Facile U 0 40 Y Y 1 F N
-F0 "U" -325 425 50 H V C CNN
-F1 "Chimere_Audio_Facile" 225 25 50 H V C CNN
-F2 "Chimere:Audio_Facile" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -400 350 400 -25 0 1 0 N
-X OUT_P 1 500 225 100 L 50 50 1 1 O
-X 5V 2 50 450 100 D 50 50 1 1 W
-X SD 3 -500 250 100 R 50 50 1 1 I
-X GND 4 -75 450 100 D 50 50 1 1 P
-X OUT_N 5 500 100 100 L 50 50 1 1 O
-X IN 6 -500 75 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Chimere_Batt_Alim
-#
-DEF Chimere_Batt_Alim U 0 40 Y Y 1 F N
-F0 "U" -325 425 50 H V C CNN
-F1 "Chimere_Batt_Alim" 225 25 50 H V C CNN
-F2 "Chimere:Batt_Alim" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -400 350 400 -25 0 1 0 N
-X V_ext 1 -500 300 100 R 50 50 1 1 W
-X GND 2 -500 175 100 R 50 50 1 1 P
-X V_BAT+ 3 -500 50 100 R 50 50 1 1 B
-X 5V 4 500 300 100 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# Chimere_ESP32-DEVKITC
-#
-DEF Chimere_ESP32-DEVKITC U 0 40 Y Y 1 F N
+DEF Chimere_comps_ESP32-DEVKITC U 0 40 Y Y 1 F N
 F0 "U" -601 1026 50 H V L BNN
-F1 "Chimere_ESP32-DEVKITC" -601 -1101 50 H V L BNN
-F2 "Chimere:MODULE_ESP32-DEVKITC" 0 0 50 H I L BNN
+F1 "Chimere_comps_ESP32-DEVKITC" -601 -1101 50 H V L BNN
+F2 "Chimere_comps:MODULE_ESP32-DEVKITC" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
 F5 "ESPRESSIF" 0 0 50 H I L BNN "MANUFACTURER"
@@ -88,12 +54,12 @@ X IO25 9 -800 100 200 R 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# Chimere_UDA1334_ADAFRUIT
+# Chimere_comps_UDA1334_ADAFRUIT
 #
-DEF Chimere_UDA1334_ADAFRUIT U 0 40 Y Y 1 F N
+DEF Chimere_comps_UDA1334_ADAFRUIT U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
-F1 "Chimere_UDA1334_ADAFRUIT" 0 -100 50 V V C CNN
-F2 "Chimere:Adafruit_UDA1334" -150 0 50 H I C CNN
+F1 "Chimere_comps_UDA1334_ADAFRUIT" 0 -100 50 V V C CNN
+F2 "Chimere_comps:Adafruit_UDA1334" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
 S -350 400 350 -600 0 1 0 N
@@ -115,12 +81,12 @@ X Rout 9 -550 -500 200 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Chimere_rot_pot_rot_sw
+# Chimere_comps_rot_pot_rot_sw
 #
-DEF Chimere_rot_pot_rot_sw U 0 40 Y Y 1 F N
+DEF Chimere_comps_rot_pot_rot_sw U 0 40 Y Y 1 F N
 F0 "U" -375 200 50 H V C CNN
-F1 "Chimere_rot_pot_rot_sw" -150 300 50 H V C CNN
-F2 "Chimere:PTR901" 50 0 50 H I C CNN
+F1 "Chimere_comps_rot_pot_rot_sw" -150 300 50 H V C CNN
+F2 "Chimere_comps:PTR901" 50 0 50 H I C CNN
 F3 "" 50 0 50 H I C CNN
 DRAW
 A -25 0 75 1 1799 0 1 0 N 50 0 -100 0
@@ -139,6 +105,40 @@ X SW_2 2 -200 -100 100 U 50 50 1 1 P
 X pot_1 3 -100 -100 100 U 50 50 1 1 P
 X pot_2 4 -25 -100 100 U 50 50 1 1 P
 X pot_3 5 50 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Chimere_mods_Audio_Facile
+#
+DEF Chimere_mods_Audio_Facile U 0 40 Y Y 1 F N
+F0 "U" -325 425 50 H V C CNN
+F1 "Chimere_mods_Audio_Facile" 225 25 50 H V C CNN
+F2 "Chimere_mods:Audio_Facile" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 350 400 -25 0 1 0 N
+X OUT_P 1 500 225 100 L 50 50 1 1 O
+X 5V 2 50 450 100 D 50 50 1 1 W
+X SD 3 -500 250 100 R 50 50 1 1 I
+X GND 4 -75 450 100 D 50 50 1 1 P
+X OUT_N 5 500 100 100 L 50 50 1 1 O
+X IN 6 -500 75 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Chimere_mods_Batt_Alim
+#
+DEF Chimere_mods_Batt_Alim U 0 40 Y Y 1 F N
+F0 "U" -325 425 50 H V C CNN
+F1 "Chimere_mods_Batt_Alim" 225 25 50 H V C CNN
+F2 "Chimere_mods:Batt_Alim" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 350 400 -25 0 1 0 N
+X V_ext 1 -500 300 100 R 50 50 1 1 W
+X GND 2 -500 175 100 R 50 50 1 1 P
+X V_BAT+ 3 -500 50 100 R 50 50 1 1 B
+X 5V 4 500 300 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
