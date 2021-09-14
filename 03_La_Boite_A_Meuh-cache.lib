@@ -126,11 +126,11 @@ X IN 6 -500 75 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Chimere_mods_Batt_Alim
+# Chimere_mods_Batt_Alim_4P
 #
-DEF Chimere_mods_Batt_Alim U 0 40 Y Y 1 F N
+DEF Chimere_mods_Batt_Alim_4P U 0 40 Y Y 1 F N
 F0 "U" -325 425 50 H V C CNN
-F1 "Chimere_mods_Batt_Alim" 225 25 50 H V C CNN
+F1 "Chimere_mods_Batt_Alim_4P" 225 25 50 H V C CNN
 F2 "Chimere_mods:Batt_Alim" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

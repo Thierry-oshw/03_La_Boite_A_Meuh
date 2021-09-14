@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Chimere_mods:Batt_Alim U4
+L Chimere_mods:Batt_Alim_4P U4
 U 1 1 5FDF7692
 P 6300 3750
 AR Path="/5FDF7692" Ref="U4"  Part="1" 
 AR Path="/5FC6D1FC/5FDF7692" Ref="U4"  Part="1" 
 F 0 "U4" H 6300 4290 50  0000 C CNN
 F 1 "Batt_Alim" H 6300 4199 50  0000 C CNN
-F 2 "Chimere_mods:Batt_Alim" H 6300 3750 50  0001 C CNN
+F 2 "Chimere_mods:Batt_Alim_4P_HP" H 6300 3750 50  0001 C CNN
 F 3 "" H 6300 3750 50  0001 C CNN
 	1    6300 3750
 	1    0    0    -1  

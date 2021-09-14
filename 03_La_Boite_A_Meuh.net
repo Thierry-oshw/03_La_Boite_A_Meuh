@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\sauvegarde\12_kicad\GITHUB\03_La_Boite_A_Meuh\03_La_Boite_A_Meuh.sch)
-    (date "14/09/2021 14:13:42")
+    (date "14/09/2021 17:04:32")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -443,8 +443,8 @@
       (tstamp 60706511))
     (comp (ref U4)
       (value Batt_Alim)
-      (footprint Chimere_mods:Batt_Alim)
-      (libsource (lib Chimere_mods) (part Batt_Alim) (description ""))
+      (footprint Chimere_mods:Batt_Alim_4P_HP)
+      (libsource (lib Chimere_mods) (part Batt_Alim_4P) (description ""))
       (sheetpath (names /Batt_alim/) (tstamps /5FC6D1FC/))
       (tstamp 5FDF7692))
     (comp (ref J4)
@@ -609,10 +609,10 @@
         (pin (num 4) (name GND) (type passive))
         (pin (num 5) (name OUT_N) (type output))
         (pin (num 6) (name IN) (type input))))
-    (libpart (lib Chimere_mods) (part Batt_Alim)
+    (libpart (lib Chimere_mods) (part Batt_Alim_4P)
       (fields
         (field (name Reference) U)
-        (field (name Value) Batt_Alim)
+        (field (name Value) Batt_Alim_4P)
         (field (name Footprint) Chimere_mods:Batt_Alim))
       (pins
         (pin (num 1) (name V_ext) (type power_in))
