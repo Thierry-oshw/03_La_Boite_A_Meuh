@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source C:\sauvegarde\12_kicad\GITHUB\03_La_Boite_A_Meuh\03_La_Boite_A_Meuh.sch)
-    (date "24/07/2021 09:54:14")
-    (tool "Eeschema (5.1.9)-1")
+    (date "14/09/2021 14:13:42")
+    (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -156,7 +156,7 @@
       (tstamp 5FE77C75))
     (comp (ref U1)
       (value Audio_Facile)
-      (footprint Chimere_mods:Audio_Facile)
+      (footprint Chimere_mods:Audio_Facile_HP)
       (libsource (lib Chimere_mods) (part Audio_Facile) (description ""))
       (sheetpath (names /Audio/) (tstamps /5FC6C772/))
       (tstamp 606C57A8))

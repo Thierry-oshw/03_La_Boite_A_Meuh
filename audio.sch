@@ -150,7 +150,7 @@ AR Path="/606C57A8" Ref="U1"  Part="1"
 AR Path="/5FC6C772/606C57A8" Ref="U1"  Part="1" 
 F 0 "U1" H 4975 3103 50  0000 C CNN
 F 1 "Audio_Facile" H 4975 3012 50  0000 C CNN
-F 2 "Chimere_mods:Audio_Facile" H 4975 3200 50  0001 C CNN
+F 2 "Chimere_mods:Audio_Facile_HP" H 4975 3200 50  0001 C CNN
 F 3 "" H 4975 3200 50  0001 C CNN
 	1    4975 3200
 	1    0    0    -1  
